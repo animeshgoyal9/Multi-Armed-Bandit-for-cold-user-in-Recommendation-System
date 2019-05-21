@@ -1,2 +1,2 @@
-# DSL lab
+# Data Science Lab
 
