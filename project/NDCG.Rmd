@@ -1,0 +1,45 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.0'
+      jupytext_version: 0.8.6
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+```{python}
+import math
+```
+
+```{python}
+DCG_true = []
+DCG_pred = []
+```
+
+```{python}
+class NDCG():
+    def DCG_compute():
+        
+#   Implementing equation 3    
+    def DCG_Normalize(self,n_users,dcg_true,dcg_pred):
+        for index in range(len(dcg_true)) :
+            ndcg += dcg_pred[index]/dcg_user[index]
+        return ndcg/n_users
+    
+#   Implementing equation 4
+    def DCG_Pred_perUser(self,r_u_t):
+        dcg = r_u_t[0]
+        for time in range(len(r_u_t)) :
+            if (time > 0) :
+                dcg += r_u_t[time]/(math.log(time,2))
+        
+    
+    
+        
+    
+```
