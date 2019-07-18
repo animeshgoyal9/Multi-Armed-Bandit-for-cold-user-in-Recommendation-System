@@ -1,4 +1,4 @@
-# Data Science Lab Project
+# Multi Armed Bandit for Solving Cold User Problem
 
 The Problem — Cold Start
 
