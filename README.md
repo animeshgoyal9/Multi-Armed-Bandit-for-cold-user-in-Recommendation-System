@@ -1,5 +1,7 @@
 # Multi Armed Bandit for Solving Cold User Problem
 
+https://towardsdatascience.com/solving-cold-user-problem-for-recommendation-system-using-multi-armed-bandit-d36e42fe8d44
+
 The Problem — Cold Start
 
 So, what is the cold start problem? The term derives from cars. When it’s really cold, the engine has problems with starting up, but once it reaches its optimal operating temperature, it will run smoothly. With recommendation engines, the “cold start” simply means that the circumstances are not yet optimal for the engine to provide the best possible results. Our aim is to minimize this time to heat the engine. The two distinct categories of cold start: product cold start and user cold starts. In this blog, we are concentrating on the user cold start problem.
